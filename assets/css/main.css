@@ -2677,10 +2677,12 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+
 #imgGallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   width: 95%;
   max-width: 800px;
