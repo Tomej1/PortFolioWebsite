@@ -1,1 +1,34 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
+body {
+  padding: 15px;
+}
+
+#imgGallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 800px;
+}
+
+#imgGallery img{
+  width: 30%;
+  cursor: pointer;
+  filter: grayscale(0.75);
+  transition: 0.4s;
+  margin: 5px;
+}
+
+#imgGallery img:hover {
+  filter: grayscale(0%);
+}
+
+.grow {
+  width: 100% !important;
+}
+.shrink {
+  width: 0% !important;
+}
