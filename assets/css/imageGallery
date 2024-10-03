@@ -1,1 +1,21 @@
-new css
+
+body{
+  padding: 15px;
+}
+#imgGallery img {
+	width: 30%;
+	cursor: pointer;
+	filter: grayscale(0.75);
+	transition: 0.4s;
+	margin: 5px;
+}
+#imgGallery {
+	filter: grayscale(0%);
+}
+.grow {
+	width: 100% !important;
+}
+.shrink {
+	width: 0% !important;
+	display: none;
+}
