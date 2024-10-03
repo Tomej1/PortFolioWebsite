@@ -2678,36 +2678,37 @@ input, select, textarea {
 		}
 
 
-#imgGallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 95%;
-  max-width: 800px;
-}
+	#imgGallery {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: center;
+	  margin: 0 auto;
+	  width: 95%;
+	  max-width: 800px;
+	}
 
-#imgGallery img{
-  width: 30%;
-  cursor: pointer;
-  filter: grayscale(0.75);
-  transition: 0.4s;
-  margin: 5px;
-}
+	#imgGallery img{
+	  width: 30%;
+	  cursor: pointer;
+	  filter: grayscale(0.75);
+	  transition: 0.4s;
+	  margin: 5px;
+	}
 
-#imgGallery img:hover {
-  filter: grayscale(0%);
-}
+	#imgGallery img:hover {
+	  filter: grayscale(0%);
+	}
 
-.grow {
-  width: 100% !important;
-}
-.shrink {
-  width: 0% !important;
-}
+	.grow {
+	  width: 100% !important;
+	}
+	.shrink {
+	  width: 0% !important;
+	  display: none;
+	}
 
-}
+	}
 
 /* Actions */
 
