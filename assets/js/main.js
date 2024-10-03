@@ -11,7 +11,7 @@ $(function() {
     $(this).toggleClass("grow")
 
   })
-})
+})(jQuery);
 
 (function($) {
 
