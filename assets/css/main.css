@@ -2702,6 +2702,7 @@ input, select, textarea {
 
 	.grow {
 	  width: 100% !important;
+	  filter: grayscale(0%);
 	}
 	.shrink {
 	  width: 0% !important;
