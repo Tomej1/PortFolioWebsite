@@ -2695,10 +2695,10 @@ input, select, textarea {
 	filter: grayscale(0%);
 }
 .grow {
-	width: 100%;
+	width: 100% !important;
 }
 .shrink {
-	
+	width: 0% !important;
 }
 
 /* Actions */
