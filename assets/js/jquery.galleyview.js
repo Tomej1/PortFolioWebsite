@@ -2,8 +2,8 @@ $(function() {
 
   $("#imgGallery img").click(function(){
 
-    $("imgGallery img").not(this).toggleClass("shrink");
-    $(this).toggleClass("grow")
+    $(this).toggleClass("grow");
+    $("imgGallery img").not(this).toggleClass("shrink")
     
   })
   
