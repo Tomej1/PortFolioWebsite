@@ -2675,6 +2675,31 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+#imgGallery {
+	display: felx;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 95%;
+	max-width: 800px;
+}
+#imgGallery img {
+	width: 30%;
+	cursor: pointer;
+	filter: grayscale(0.75);
+	transition: 0.4s;
+	margin: 5px;
+}
+#imgGallery {
+	filter: grayscale(0%);
+}
+.grow {
+	width: 100%;
+}
+.shrink {
+	
+}
 
 /* Actions */
 
