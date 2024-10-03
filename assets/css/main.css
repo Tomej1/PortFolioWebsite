@@ -72,25 +72,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-#imgGallery img {
-	width: 30%;
-	cursor: pointer;
-	filter: grayscale(0.75);
-	transition: 0.4s;
-	margin: 5px;
-}
-#imgGallery {
-	filter: grayscale(0%);
-}
-.grow {
-	width: 100% !important;
-}
-.shrink {
-	width: 0% !important;
-	display: none;
-}
-
-
 /* Basic */
 
 	@-ms-viewport {
