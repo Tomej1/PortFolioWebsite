@@ -2686,8 +2686,7 @@ input, select, textarea {
   align-items: center;
   margin: 0 auto;
   width: 95%;
-  max-width: 800px;
-  max-height: 800px;
+  max-width: 600px;
 }
 
 #imgGallery img{
@@ -2704,7 +2703,7 @@ input, select, textarea {
 }
 
 .grow {
-  width: 100% !important;
+  width: 80% !important;
 }
 .shrink {
   width: 0% !important;
