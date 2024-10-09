@@ -67,17 +67,20 @@
 									<b>Group:</b>
 									10 members </br>
 								</p>
-								<h3>                 My contributions</h3>
+								<h3>My contributions</h3>
 								___________________________________________________________________
 								
-									<b>        Fighting controls and mechanics</b>
+									<b>Fighting controls and mechanics</b>
 								<p>
-									<b>1.</b> The Fighting mechanics were created for fast paced and interactive combat. In order to make the game more enjoyable different combo sequences were made. By creating lists and
-									dictionaries the program could handle all the players inputs in order to display the specific fighting combos aswell as animations. The following images show how I through code was able to connect
-									specific inputs from multiple devices with certain combo outputs. Since just creating standard attack patterns did not feel engaging enough for the player I choose to also add in combo follow up systems,
-									which matched the players inputs with button inputs in the combo lists in order to execute additional attacks. This makes it so that the combos keeps being performed as long as the player presses the buttons
-									and the combo is a viable combo in the lists, if not the combo is cleared and the player can start new attack patterns.
-									<h4>Images for combo handling and animation outputs</h4>
+									<li>I created a dynamic fighting system that connected player inputs to lists and dictorinaries of combos and animations. If the combo was in the lists it would be displayed and performed by the player
+										creating an interactive fighting style. See the 4 first pictures.
+									<li>Since single attack combos did not feel engaging enough i implemented ways for the player to keep doing combos as long as the follow up inputs were viable combos. See ExecuteFollowUpCombo picture.
+									<li>Problems were that if the player just kept attacking the player would be stuck in doing combo loops which made the character freeze. To fix this i created ways for the program to see if the additional
+										inputs were viable, if not viable the attacks would be reset to the start stage and they player would perform attacks all over again. See checkAndClearInputs picture.
+									<li>This was possible to implement since I had created a animation controller that responded to the code in a manner which would connected animation and code together for the combos. See animationcontroller picture.
+									</li>
+									
+									<h6>Images and video of fighting and animation output</h6>
 									<div id="imgGallery">
 										<img src="images/ComboLists.png" alt= "combos">
 										<img src="images/HandleAttack.png" alt="attackCode">
@@ -90,8 +93,6 @@
 									</div>
 										
 								</p>
-
-
 								
 									<b>2.</b> Connecting playerinputsystem to multiple controls for extra accessability <br />
 									<b>3.</b> Displaying information about the fighting and tutorial showcase <br />
