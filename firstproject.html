@@ -70,18 +70,20 @@
 								</p>
 								<h3>My contributions</h3>
 								
-									<b>Fighting controls and mechanics</b>
-								
+								<b>Fighting controls and mechanics</b>
 							</br>
-									<b>• I created</b> a dynamic fighting system that connected player inputs to lists and dictorinaries of combos and animations. If the combo was in the lists it would be displayed and performed by the player
-									creating an interactive fighting style. See the 4 first pictures.
+								<b>• I created</b> a dynamic fighting system that connected player inputs to lists and dictorinaries of combos and animations. If the combo was in the lists it would be displayed and performed by the player
+								creating an interactive fighting style. See the 4 first pictures.
 							</br>
-									<b>• Since</b> single attack combos did not feel engaging enough i implemented ways for the player to keep doing combos as long as the follow up inputs were viable combos. See ExecuteFollowUpCombo picture.
 							</br>
-									<b>• Problems</b>  were that if the player just kept attacking the player would be stuck in doing combo loops which made the character freeze. To fix this i created ways for the program to see if the additional
-									inputs were viable, if not viable the attacks would be reset to the start stage and they player would perform attacks all over again. See checkAndClearInputs picture.
+								<b>• Since</b> single attack combos did not feel engaging enough i implemented ways for the player to keep doing combos as long as the follow up inputs were viable combos. See ExecuteFollowUpCombo picture.
 							</br>
-									<b>• This</b> was possible to implement since I had created a animation controller that responded to the code in a manner which would connected animation and code together for the combos. See animationcontroller picture.
+							</br>
+								<b>• Problems</b>  were that if the player just kept attacking the player would be stuck in doing combo loops which made the character freeze. To fix this i created ways for the program to see if the additional
+								inputs were viable, if not viable the attacks would be reset to the start stage and they player would perform attacks all over again. See checkAndClearInputs picture.
+							</br>
+							</br>
+								<b>• This</b> was possible to implement since I had created a animation controller that responded to the code in a manner which would connected animation and code together for the combos. See animationcontroller picture.
 								<p>
 									<h6>Images and video of fighting and animation output</h6>
 									<div id="imgGallery">
@@ -100,13 +102,12 @@
 								</p>
 								
 								<b>Connecting playerinputsystem to multiple controls for extra accessability</b>
-
+							</br>
+								I created an inputsystem that was dynamic depending on what scene the player was in. If the player is in the main hubscene of the world, certain movement controls would be used.
+								If the player then engaged with a boss a new movement controller would load. Following are the code snippets for the inputsystem and how the inputsystem looked.
+								
 								<p>
-									I created an inputsystem that was dynamic depending on what scene the player was in. If the player is in the main hubscene of the world, certain movement controls would be used.
-									If the player then engaged with a boss a new inputsystem would load which loaded in the specific movement controlles the fighting required. Following are the code snippets for the inputsystem.
-								</p>
-
-								<h6>Images for inputsystem</h6>
+									<h6>Images for inputsystem</h6>
 									<div id="imgGallery">
 										<img src="images/InputSystem.png" alt= "combos">
 										<img src="images/InitializePIS.png" alt="codes">
@@ -114,22 +115,12 @@
 										<img src="images/MoveFunctions.png" alt="codes">
 										<img src="images/HubWorld.png" alt="codes">
 									</div>
+								</p>
 								
-									<b>2.</b> Connecting playerinputsystem to multiple controls for extra accessability <br />
 									<b>3.</b> Displaying information about the fighting and tutorial showcase <br />
 									<b>4.</b> AI behaviour and animations<br />
 
-								<p>
-									<b>2.</b> 
-								<h4>Images for inputsystem</h4>
-									<div id="imgGallery">
-										<img src="images/InputSystem.png" alt= "combos">
-										<img src="images/InitializePIS.png" alt="codes">
-										<img src="images/MoveFunctions.png" alt="codes">
-										<img src="images/HubWorld.png" alt="codes">
-									</div>
-										
-								</p>
+								
 								<p>
 									<b>3.</b> I created a scene in the game which purpose was to showcase the different combos in the game for the player to see. Since this scene would display the fighting combos
 									, I thought it would be appropriate to do so in a flashing way. The scene can seen below in the youtube video. The showcase shows the camera spinning around the main character 
