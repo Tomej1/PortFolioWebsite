@@ -2679,13 +2679,6 @@ input, select, textarea {
 
 	}
 
-<style>
-    .responsive-gifs img {
-        max-width: 100%;
-        height: auto;
-    }
-</style>
-
 #imgGallery {
   display: flex;
   flex-wrap: wrap;
