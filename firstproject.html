@@ -79,32 +79,35 @@
 								<b>Fighting controls and mechanics</b>
 							</br>
 								<b>• I created</b> a dynamic fighting system that connected player inputs to lists and dictorinaries of combos and animations. If the combo was in the lists it would be displayed and performed by the player
-								creating an interactive fighting style. See the 4 first pictures.
-							</br>
-							</br>
-								<b>• Since</b> single attack combos did not feel engaging enough i implemented ways for the player to keep doing combos as long as the follow up inputs were viable combos. See ExecuteFollowUpCombo picture.
-							</br>
-							</br>
+								creating an interactive fighting style. See images below.
+								<div id="imgGallery">
+									<img src="images/ComboLists.png" alt= "combos">
+									<img src="images/HandleAttack.png" alt="attackCode">
+									<img src="images/MatchesCombo.png" alt="matchCombo">
+									<img src="images/PerformCombo.png" alt="executeCombo">
+								</div>
+							
+								<b>• Since</b> single attack combos did not feel engaging enough i implemented ways for the player to keep doing combos as long as the follow up inputs were viable combos. See images below.
+								<div id="imgGallery">
+									<img src="images/ComboLists.png" alt= "combos">
+									<img src="images/ExecuteCombo.png" alt="executeCombo">
+								</div>
+								
 								<b>• Problems</b>  were that if the player just kept attacking the player would be stuck in doing combo loops which made the character freeze. To fix this i created ways for the program to see if the additional
 								inputs were viable, if not viable the attacks would be reset to the start stage and they player would perform attacks all over again. See checkAndClearInputs picture.
-							</br>
-							</br>
+								<div id="imgGallery">
+									<img src="images/ClearInputsCode.png" alt="clear">
+									<img src="images/PlayerController.png" alt="clear">
+								</div>
+							
 								<b>• This</b> was possible to implement since I had created a animation controller that responded to the code in a manner which would connected animation and code together for the combos. See animationcontroller picture.
-								<p>
+								<div id="imgGallery">
+									<img src="images/PlayerController.png" alt="clear">
+								</div>
 									<h6>Images and video of fighting and animation output</h6>
-									<div id="imgGallery">
-										<img src="images/ComboLists.png" alt= "combos">
-										<img src="images/HandleAttack.png" alt="attackCode">
-										<img src="images/Attacking.png" alt="attackCode">
-										<img src="images/MatchesCombo.png" alt="matchCombo">
-										<img src="images/ExecuteCombo.png" alt="executeCombo">
-										<img src="images/PerformCombo.png" alt="executeCombo">
-										<img src="images/ClearInputsCode.png" alt="clear">
-										<img src="images/PlayerController.png" alt="clear">
-									</div>
-
+									
+								
 								Output of animations
-										
 								</p>
 								
 								<b>Connecting playerinputsystem to multiple controls for extra accessability</b>
