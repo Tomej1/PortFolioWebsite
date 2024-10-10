@@ -17,7 +17,40 @@
             			max-width: 100%;  /* The image will scale down to fit the width of the screen */
             			height: auto;     /* Maintain aspect ratio */
         		}
+			#imgGallery {
+			  display: flex;
+			  flex-wrap: wrap;
+			  justify-content: center;
+			  align-items: center;
+			  margin: 0 auto;
+			  height: auto;
+			  width: 80%;
+			  max-width: 500px;
+			}
+			
+			#imgGallery img{
+			  width: 20%;
+			  cursor: pointer;
+			  filter: grayscale(0.75);
+			  transition: 0.4s;
+			  margin: 5px;
+			  border: green solid;
+			}
+			
+			#imgGallery img:hover {
+			  filter: grayscale(0%);
+			}
+			
+			.grow {
+			  width: 80% !important;
+			}
+			.shrink {
+			  width: 0% !important;
+			  display: none;
+			}
 		</style>
+
+		
 
 		
 	</head>
