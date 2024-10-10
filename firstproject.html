@@ -17,40 +17,7 @@
             			max-width: 100%;  /* The image will scale down to fit the width of the screen */
             			height: auto;     /* Maintain aspect ratio */
         		}
-			#imgGallery {
-			  display: flex;
-			  flex-wrap: wrap;
-			  justify-content: center;
-			  align-items: center;
-			  margin: 0 auto;
-			  height: auto;
-			  width: 80%;
-			  max-width: 500px;
-			}
-			
-			#imgGallery img{
-			  width: 20%;
-			  cursor: pointer;
-			  filter: grayscale(0.75);
-			  transition: 0.4s;
-			  margin: 5px;
-			  border: green solid;
-			}
-			
-			#imgGallery img:hover {
-			  filter: grayscale(0%);
-			}
-			
-			.grow {
-			  width: 80% !important;
-			}
-			.shrink {
-			  width: 0% !important;
-			  display: none;
-			}
 		</style>
-
-		
 
 		
 	</head>
@@ -201,7 +168,7 @@
 								<b>• Creating</b> seperate animation controllers for the  bosses made the implementation of certain behaviours easier. Since we could add in certain attacks 
 								and create the feeling that the bosses presentet unique challenges. As you can see in the lower right of the images below: Demon3, Naga, Yaksha and EvilBom all have different attack patterns. The first boss uses only punching attacks 
 								while the next boss Naga implements kicking and additional punching combos. As the player progresses in the game they can fight the final boss, EvilBom who has a multitude of different attacks and combos. See images below.
-								<div class="imgGallery">
+								<div id="imgGallery">
 									<img src="images/Demon3C.png" alt= "combos">
 									<img src="images/NagaC.png" alt="codes">
 									<img src="images/YakshaC.png" alt="codes">
